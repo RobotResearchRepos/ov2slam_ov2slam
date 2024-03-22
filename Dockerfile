@@ -1,4 +1,4 @@
-FROM osrf/ros:noetic-desktop-full
+FROM osrf/ros:melodic-desktop-full
 
 ARG DEBIAN_FRONTEND=noninteractive
 
