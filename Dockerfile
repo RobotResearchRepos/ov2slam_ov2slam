@@ -10,6 +10,7 @@ RUN apt-get update \
 
 RUN apt-get update \
  && apt-get install -y libgoogle-glog-dev libgflags-dev \
+      libopencv-contrib-dev \
  && rm -rf /var/lib/apt/lists/*
 
 # Code repository
